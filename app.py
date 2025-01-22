@@ -1,11 +1,11 @@
 import os
-os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"  # Disable MSMF backend (Windows specific)
-os.environ["OPENCV_OPENCL_RUNTIME"] = "disabled"  # Disable OpenCL runtime
-os.environ["DISPLAY"] = ""  # Disable GUI-based functionalities
+os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0" 
+os.environ["OPENCV_OPENCL_RUNTIME"] = "disabled" 
+os.environ["DISPLAY"] = ""  
 
 import cv2
 import mediapipe as mp
-from ultralytics import YOLO
+from ultralytics import YOLO      
 import time
 import math
 import pandas as pd
