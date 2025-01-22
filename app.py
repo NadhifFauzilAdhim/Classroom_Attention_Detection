@@ -1,8 +1,7 @@
-from pyvirtualdisplay import Display
-
-# Setup virtual display
-display = Display(visible=False, size=(1280, 720))
-display.start()
+import os
+os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"  # Disable MSMF backend (Windows specific)
+os.environ["OPENCV_OPENCL_RUNTIME"] = "disabled"  # Disable OpenCL runtime
+os.environ["DISPLAY"] = ""  # Disable GUI-based functionalities
 
 import cv2
 import mediapipe as mp
