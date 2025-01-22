@@ -4,3 +4,4 @@ mediapipe
 ultralytics
 pandas
 matplotlib
+numpy
