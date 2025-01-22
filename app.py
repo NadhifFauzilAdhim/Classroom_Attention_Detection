@@ -1,3 +1,9 @@
+from pyvirtualdisplay import Display
+
+# Setup virtual display
+display = Display(visible=False, size=(1280, 720))
+display.start()
+
 import cv2
 import mediapipe as mp
 from ultralytics import YOLO
