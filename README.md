@@ -4,6 +4,9 @@ Aplikasi berbasis Python untuk mendeteksi dan menganalisis fokus siswa di ruang 
 
 ---
 
+<a href="https://ibb.co.com/kgwcF9bc"><img src="https://i.ibb.co.com/zhBfw79f/Whats-App-Image-2025-01-19-at-18-00-08-ec6d299b.jpg" alt="Whats-App-Image-2025-01-19-at-18-00-08-ec6d299b" border="0"></a>
+
+
 ## ✨ Fitur
 
 - **Integrasi YOLOv8**: Menggunakan YOLOv8 untuk deteksi wajah yang efisien.
